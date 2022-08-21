@@ -1,0 +1,33 @@
+function changeText(){
+    document.getElementById("menu1").innerHTML=("Start");
+    document.getElementById("menu2").innerHTML=("Tips");
+    document.getElementById("menu3").innerHTML=("Know about us");
+    document.getElementById("cuenta").innerHTML=("Login/Create Account");
+    document.getElementById("tema").innerHTML=("Theme 2: Onomatopoeic sounds of animals");
+    document.getElementById("creditos").innerHTML=("Image from: www.orientacionandujar.es");
+    document.getElementById("parrafo1").innerHTML=("In onomatopoeic sound of animals, it is an imitation of the sound that each animal has in particular, for example: a dog barks, its onomatopoeic sound is a woof woof, since it imitates or represents the sound it makes. Some examples below:");
+    document.getElementById("animal").innerHTML=("Animal");
+    document.getElementById("sonidoeje").innerHTML=("Onomatopoeic sound");
+    document.getElementById("imagen").innerHTML=("Image");
+    document.getElementById("sonido").innerHTML=("Sound");
+    document.getElementById("animal1").innerHTML=("Chicken");
+    document.getElementById("creditos1").innerHTML=("Image by: Pinterest");
+    document.getElementById("animal2").innerHTML=("Duck");
+    document.getElementById("creditos2").innerHTML=("Image by: https://es.vexels.com");
+    document.getElementById("animal3").innerHTML=("Pig");
+    document.getElementById("creditos3").innerHTML=("Image by: pixabay.com");
+    document.getElementById("animal41").innerHTML=("Sheep");
+    document.getElementById("creditos41").innerHTML=("Image by: Pinterest");
+    document.getElementById("animal4").innerHTML=("Cow");
+    document.getElementById("creditos4").innerHTML=("Pinterest");
+    document.getElementById("animal5").innerHTML=("Rooster");
+    document.getElementById("creditos5").innerHTML=("Creazilla.com");
+    document.getElementById("animal6").innerHTML=("Chick");
+    document.getElementById("creditos6").innerHTML=("Pinterest");
+    document.getElementById("animal7").innerHTML=("Mouse");
+    document.getElementById("creditos7").innerHTML=("Image by: Pinterest");
+    document.getElementById("animal71").innerHTML=("Snake");
+    document.getElementById("creditos71").innerHTML=("Image by: Pixabay.com");
+    document.getElementById("actividad").innerHTML=("Activity to be performed!");
+    document.getElementById("foter").innerHTML=("2022 SEI. All rights reserved.");
+}

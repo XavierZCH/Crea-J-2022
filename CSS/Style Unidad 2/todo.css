@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap');
+body{
+    background-color: hsl(0, 74%, 63%);
+}
+h1{
+    font-family: 'Butterfly Kids', 'Cambria, Cochin', Georgia, Times, 'Times New Roman', serif ;
+}

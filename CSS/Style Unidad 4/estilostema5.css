@@ -1,0 +1,41 @@
+body{
+    background-color: hsl(54, 81%, 69%);
+}
+p{
+    font-size: 1.5rem;
+}
+.todo {
+    font-size: 1.5rem;
+    word-spacing: 1.5px;
+}
+p{
+    padding-bottom: 10px;
+}
+.img{
+    margin-left: 30%;
+}
+.tema{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+h6{
+    margin-left: 45%;
+    font-size: 13px;
+}
+#actividad{
+    text-align: center;
+    font-size: 5rem;
+}
+.lista {
+    margin-left: 30px;
+    font-size: 1.5rem;
+}
+h2{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+}
+audio{
+    margin-left: 39%;
+}

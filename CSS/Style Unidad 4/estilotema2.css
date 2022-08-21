@@ -1,0 +1,44 @@
+
+    body{
+        background-color: hsl(54, 81%, 69%);
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .todo {
+        font-size: 1.5rem;
+        word-spacing: 1.5px;
+    }
+    .img{
+        margin-left: 40%;
+    }
+    p{
+        padding-bottom: 10px;
+    }
+    .tema{
+        font-size: 50px;
+        text-align: center;
+    }
+    #creditos{
+        margin-left: 45%;
+        font-size: 13px;
+    }
+    table{
+        margin-top: 10px;
+        margin-left: 25%;
+        width: 50%;
+        font-size: 150%;
+        border-color: black;
+        border-spacing: 0ch;
+    }
+    #actividad{
+        text-align: center;
+        font-size: 5rem;
+    }
+    td, th {
+        background: aquamarine;
+    }
+    .uni{
+        margin-left: 39%;
+    }
+    

@@ -1,0 +1,80 @@
+body{
+    background-color: #9fd5d1; 
+}
+.caja{
+
+    display: grid;
+    grid-template-columns: 1fr
+}
+#texto{
+    margin-top: 10rem;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 10px;
+}
+.audio{
+    margin-left: 40%;
+    margin-top: 3rem;
+    margin-bottom: 5px;
+}
+h2{
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+p{
+    padding: 15px;
+    font-size: 1.3rem ;
+    background-color:azure ;
+    border-radius: 5px;
+    width: 82rem;
+    letter-spacing: 2px;
+    margin-left: 1rem;
+}
+h3{
+    text-align: center;
+}
+.sentimientos{
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.5rem;
+}
+.center{
+    text-align: center;
+    padding: 5px;
+}
+.senti{
+    background-color: white;
+    margin: 12px;
+    border-radius: 5px;
+}
+.senti1{
+    background-color: white;
+    margin: 12px;
+    border-radius: 5px;
+}
+.senti2{
+    background-color: white;
+    margin: 12px;
+    border-radius: 5px;
+}
+.senti3{
+    background-color: white;
+    margin: 12px;
+    border-radius: 5px;
+}
+.representación1{
+    margin-left: 12rem;
+    width: 17rem;
+    height: 13rem;
+}
+.representación{
+    margin-left: 5rem;
+    width: 17rem;
+    height: 13rem;
+}

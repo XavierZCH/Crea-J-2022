@@ -1,0 +1,37 @@
+function changeText(){
+    document.getElementById("titu").innerHTML=("Welcome to PEV");
+    document.getElementById("menu1").innerHTML=("Start");
+    document.getElementById("menu2").innerHTML=("Tips");
+    document.getElementById("menu3").innerHTML=("Know about us");
+    document.getElementById("idi").innerHTML=("Translate");
+    document.getElementById("cuenta").innerHTML=("Login/Create Account");
+    document.getElementById("descripción").innerHTML=("PEV, the learning platform for 5 year old children. Our platform was created so children can learn through virtual means with no cost. Now choose the topic of the children's interest");
+    document.getElementById("u1").innerHTML=("Unit 1: Who am I, I'm like this and Am I?");
+    document.getElementById("nave").innerHTML=("Navegation Menu");
+    document.getElementById("m1").innerHTML=("Unit 1");
+    document.getElementById("m2").innerHTML=("Unit 2");
+    document.getElementById("m3").innerHTML=("Unit 3");
+    document.getElementById("m4").innerHTML=("Unit 4");
+    document.getElementById("t1.1").innerHTML=("Topic 1: Body Parts");
+    document.getElementById("t2.1").innerHTML=("Topic 2: Hygienic habits");
+    document.getElementById("t3.1").innerHTML=("Topic 3: Feelings");
+    document.getElementById("t4.1").innerHTML=("Topic 4: Your name");
+    document.getElementById("t5.1").innerHTML=("Topic 5: Time");
+    document.getElementById("u2").innerHTML=("Unit 2: Once upon a Time");
+    document.getElementById("t1.2").innerHTML=("Topic 1: My past");
+    document.getElementById("t2.2").innerHTML=("Topic 2: Life stages");
+    document.getElementById("t3.2").innerHTML=("Topic 3: Rights and Duties");
+    document.getElementById("u3").innerHTML=("Unit 3: I Write, Feel, Learn and Have fun");
+    document.getElementById("t1.3").innerHTML=("Topic 1: The senses");
+    document.getElementById("t2.3").innerHTML=("Topic 2: The nature elements");
+    document.getElementById("t3.3").innerHTML=("Topic 3: The Planets");
+    document.getElementById("t4.3").innerHTML=("Topic 4: The Weather");
+    document.getElementById("t5.3").innerHTML=("Topic 5: Shapes");
+    document.getElementById("u4").innerHTML=("Unit 4: Traveling Around the World");
+    document.getElementById("t1.4").innerHTML=("Topic 1: Animals");
+    document.getElementById("t2.4").innerHTML=("Topic 2: Onomatopeyic Sounds from Animals");
+    document.getElementById("t3.4").innerHTML=("Topic 3: Care and respect for animals");
+    document.getElementById("t4.4").innerHTML=("Topic 4: My pet");
+    document.getElementById("t5.4").innerHTML=("Topic 5: Flora");
+    document.getElementById("footer").innerHTML=("2022 SEI. All rights reserved.");
+}

@@ -1,0 +1,93 @@
+
+    body{
+        background-color: hsl(54, 81%, 69%);
+    }
+    .todo {
+        font-size: 1.5rem;
+        word-spacing: 1.5px;
+    }
+    .animales {
+        position: relative;
+        width: 50%;
+        height: 10%;
+        padding: 2.5rem;
+    }
+    .ani {
+        position: absolute;
+        width: 15em;
+        height: 15em;
+        top: 0.9rem;
+        left: 50rem;
+    }
+    .ani2 {
+        position: absolute;
+        width: 15em;
+        height: 15em;
+        top: 1rem;
+        left: 50rem;
+    }
+    .ani3 {
+        position: absolute;
+        width: 15em;
+        height: 15em;
+        top: 3rem;
+        left: 50rem;
+    }
+    .ani4 {
+        position: absolute;
+        width: 15em;
+        height: 15em;
+        top: 4.4rem;
+        left: 50rem;
+    }
+    .ani5 {
+        position: absolute;
+        width: 15em;
+        height: 15em;
+        top: 4.7rem;
+        left: 50rem;
+    }
+    .tema{
+        font-size: 50px;
+        text-align: center;
+        padding-bottom: 0.9px;
+    }
+    .img{
+        margin-left: 42%;
+    }
+    .otra{
+        margin-left: 35%;
+    }
+    #actividad{
+        text-align: center;
+        font-size: 5rem;
+    }
+    .espe{
+        margin-left: 0%;
+    }
+    p{
+        padding-bottom: 0.9px;
+        font-size: 1.5rem;
+    }
+    h2{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    h6{
+        margin-left: 100%;
+        font-size: 15px;
+    }
+    h4{
+        margin-left: 46%;
+        font-size: 25px;
+    }
+    .h4dif{
+        font-size: 25px;
+        margin-left: 0%;
+    }
+    .ss{
+        margin-left: 23%;
+    }
+    audio{
+        margin-left: 39%;
+    }

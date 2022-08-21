@@ -1,0 +1,89 @@
+body{
+    background-color: #AED6F1;
+}
+.conjunto{
+    font-size: 1.5rem;
+    word-spacing: 1.5px;
+}
+.cuerpo{
+    font-size: 2.0rem;
+    text-align: left;
+    padding: 20px;
+    width: 50%;
+    
+}
+.img-cuerpo{
+    background: url('../../IMAGENES/Unidad 1/Tema 1/Imagenes/cuerpo.png');   
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position-x: 70%;
+    background-position-y: 20%
+}
+.cabeza{
+    position: relative;
+    width: 50%;
+    height: 10%;
+    padding: 2.5rem;
+}
+.audio1{
+    position: relative;
+    top: 5px;
+    left: 10rem;
+
+}
+.imgcbz1{
+    position: relative;
+    width: 20em;
+    height: 15em;
+    top: 10px;
+    left: 6rem;
+}
+.imgcbz2{
+    position: absolute;
+    width: 15em;
+    height: 15em;
+    top: 10rem;
+    left: 50rem;
+}
+.tronco{
+    text-align: center;
+}
+.imgtrco{
+    width: 20rem;
+    height: 20rem;
+    padding: 15px;
+}
+.nexo{
+    position: relative;
+    text-align: center;
+    top: 15px;
+}
+
+.extemo{
+    position: relative;
+    padding: 5px;
+    margin-left: 2rem;
+}
+.pecho{
+    position: relative;
+    margin-left: 7rem;
+}
+.extremidades{
+    position: relative;
+    margin-left: 50rem;
+    bottom: 29rem;
+
+}
+.pierna{
+    position: absolute;
+    width: 30rem;
+}
+.audiofinal{
+    margin-left: 40%;
+    margin-top: 5rem;
+}
+.actividad{
+    margin-left:29%;
+}

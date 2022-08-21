@@ -1,0 +1,23 @@
+body{
+    background-color:bisque ;
+}
+.caja{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+}
+body img{
+    width: 40rem;
+}
+span{
+    color: red;
+}
+h2{
+    padding: 5px;
+    margin: 5px;
+    background-color:hsl(182, 45%, 67%) ;
+}   
+.audio{
+    margin-left: 40%;
+}  

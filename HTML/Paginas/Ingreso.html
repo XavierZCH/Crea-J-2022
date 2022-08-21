@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/Paginas/Ingreso css.css">
+    <link rel="icon" href="../../Imagenes/Material/Favicón.png">
+    <link rel="stylesheet" href="../../CSS/Paginas/menutrste.css">
+    <link rel="stylesheet" href="../../CSS/Paginas/h-fcompleto.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="../../JS/Ojo.Js"></script>
+    <script src="../../JS/ingreso.js"></script>
+    <title>Ingreso</title>
+</head>
+<body>
+    <div id="todo">
+        <div id="casi-todo">
+            <header>
+                <a href="../../HTML/Paginas/Index.html"><img class="logo" src="../../Imagenes/Material/Logos/logo-confirmado.png"></a>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li class="opcion"><a href="../Paginas/Index.html" id="menu1">Inicio</a></li>
+                        <li class="opcion"><a href="../Paginas/Index-Tips.html" id="menu2">Tips</a></li>
+                        <li class="opcion"><a href="../Paginas/Sobrenosotro.html" id="menu3">Conócenos</a></li>
+                    </ul>
+                </nav> 
+            </div>
+            <ul class="menuidiomas">
+                <li class="idiomas">Idiomas
+                    <ul>
+                        <div class="apa">
+                            <img class="bandera1" src="../../Imagenes/Material/Logos/españa.png"><li class="texidioma"><input type="button" value="Español" onclick="location.reload()"></li>
+                        </div>
+                        <div class="apa2">
+                            <img class="bandera2" src="../../Imagenes/Material/Logos/reino unido.png"><li class="texidioma"><button type="button" onclick="changeText()">Inglés</button></li>
+                        </div>
+                    </ul>
+                </li>
+            </ul>
+            <a href="../Paginas/Ingreso.html" class="opcionrara" id="cuenta">Iniciar Sesión/Crear Cuenta</a> 
+        </div>
+        </header>
+        <form action="../../BDphp/validacion.php" method="post">
+            <div class="img"><img src="../../Imagenes/Material/logo_nombre.png" height="40%" width="40%"></div>
+            <h1 id="inicio" >Inicio de sesión</h1>
+            <input type="email" placeholder="Escriba su Correo" name="correo">
+            <input class="password-input" type="password" placeholder="Escriba su contraseña" name="contraseña">
+            <div class="eye-btn"><i class="uil uil-eye"></i></div>
+            <button onclick="href='../../BDphp\validacion.php'"><a  id="que">Iniciar Sesion</a></button>
+            <p class="link"><a href="../../BDphp\index.php" id="pregunta">¿Aun no tienes cuenta?</a></p>
+            <p class="link"><a href="../../HTML/Paginas/Index.html" id="regreso">Regresar a la página Principal</a></p>
+        </form>    
+    </div>
+    <footer>
+        <div class="footer">
+            <ul class="redes-sociales">
+                <li><a href="#"><img class="imgredess" src="../../Imagenes/Material/iconos-redess/twi.png"></a></li>
+                <li><a href="#"><img class="imgredess2" src="../../Imagenes/Material/iconos-redess/ins.png"></a></li>
+                <li><a href="#"><img class="imgredess3"  src="../../Imagenes/Material/iconos-redess/wha.png"></a></li>
+            </ul>
+        </div>
+        <div class="derechos" id="foter">
+            2022 SEI. Todos los Derechos Reservados.
+        </div>
+    </footer>
+</body>
+</html>
+<script>
+const passwordInput = document.querySelector(".password-input");
+    const eyeBtn = document.querySelector(".eye-btn");
+    
+    eyeBtn.addEventListener("click", () => {
+      if(passwordInput.type === "password"){
+        passwordInput.type = "text";
+        eyeBtn.innerHTML = "<i class='uil uil-eye'></i>";
+      }
+      else{
+        passwordInput.type = "password";
+        eyeBtn.innerHTML = "<i class='uil uil-eye-slash'></i>";
+      }
+    });
+</script>

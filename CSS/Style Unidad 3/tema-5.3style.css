@@ -1,0 +1,21 @@
+body{
+    background-color: hsl(103, 37%, 50%);
+}
+.caja{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 10px;
+}
+.figuras{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video{
+    padding: 5px;
+    width: 50rem;
+    height: 20rem;
+    margin-left: 17rem;
+}

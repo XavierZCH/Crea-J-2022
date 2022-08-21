@@ -1,0 +1,39 @@
+body{
+    background-color: hsl(103, 37%, 50%);
+}
+.caja{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+}
+.elementos{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    width: 35rem;
+    height: 20rem;
+}
+.img2{
+    width: 35rem;
+    height: 20rem;
+}
+.img3{
+    width: 35rem;
+    height: 20rem;
+}
+.img4{
+    width: 35rem;
+    height: 20rem;
+}
+audio{
+    margin-left: 44%;
+} 
+.actividad{
+    margin-left: 26%;
+    width: 40rem;
+    height: 40rem;
+}

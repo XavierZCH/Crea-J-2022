@@ -1,0 +1,22 @@
+h1 {
+    font-size: 3rem;
+    word-spacing: 1.5px;
+    margin-left: 39%;
+}
+.texto{
+    display: inline-block;
+    position: relative;
+}
+
+.left{
+    float: left;
+}
+
+.pasado{
+padding: 20rem;
+}
+.img{
+    float: left;
+    width: 12.5rem;
+    height: 12.5rem;
+}
